@@ -1,0 +1,581 @@
+package gestdb.Graphics;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JSeparator;
+import javax.swing.LayoutStyle;
+
+public class FinestraPrincipale extends JFrame implements ActionListener {
+    private JButton jButton1;
+    private JButton jButton10;
+    private JButton jButton11;
+    private JButton jButton12;
+    private JButton jButton13;
+    private JButton jButton14;
+    private JButton jButton15;
+    private JButton jButton16;
+    private JButton jButton17;
+    private JButton jButton18;
+    private JButton jButton19;
+    private JButton jButton2;
+    private JButton jButton20;
+    private JButton jButton21;
+    private JButton jButton22;
+    private JButton jButton23;
+    private JButton jButton5;
+    private JButton jButton6;
+    private JButton jButton7;
+    private JButton jButton8;
+    private JButton jButton9;
+    private JLabel jLabel1;
+    private JLabel jLabel10;
+    private JLabel jLabel11;
+    private JLabel jLabel12;
+    private JLabel jLabel13;
+    private JLabel jLabel14;
+    private JLabel jLabel15;
+    private JLabel jLabel16;
+    private JLabel jLabel17;
+    private JLabel jLabel18;
+    private JLabel jLabel2;
+    private JLabel jLabel21;
+    private JLabel jLabel3;
+    private JLabel jLabel4;
+    private JLabel jLabel5;
+    private JLabel jLabel6;
+    private JLabel jLabel7;
+    private JLabel jLabel8;
+    private JLabel jLabel9;
+    private JPanel jPanel1;
+    private JSeparator jSeparator2;
+    private JSeparator jSeparator6;
+    private JSeparator jSeparator7;
+    private JSeparator jSeparator9;
+  
+    public FinestraPrincipale() {
+        initComponents();
+    }
+    
+    private void initComponents() {
+        jPanel1 = new JPanel();
+        jLabel1 = new JLabel();
+        jLabel2 = new JLabel();
+        jLabel3 = new JLabel();
+        jLabel4 = new JLabel();
+        jLabel5 = new JLabel();
+        jLabel6 = new JLabel();
+        jLabel7 = new JLabel();
+        jLabel8 = new JLabel();
+        jLabel9 = new JLabel();
+        jButton1 = new JButton();
+        jLabel10 = new JLabel();
+        jButton2 = new JButton();
+        jButton5 = new JButton();
+        jLabel12 = new JLabel();
+        jLabel17 = new JLabel();
+        jLabel11 = new JLabel();
+        jButton6 = new JButton();
+        jButton7 = new JButton();
+        jSeparator2 = new JSeparator();
+        jLabel13 = new JLabel();
+        jButton8 = new JButton();
+        jButton9 = new JButton();
+        jButton11 = new JButton();
+        jButton12 = new JButton();
+        jSeparator6 = new JSeparator();
+        jLabel14 = new JLabel();
+        jSeparator7 = new JSeparator();
+        jLabel15 = new JLabel();
+        jButton13 = new JButton();
+        jButton14 = new JButton();
+        jLabel16 = new JLabel();
+        jButton15 = new JButton();
+        jButton16 = new JButton();
+        jButton17 = new JButton();
+        jButton18 = new JButton();
+        jButton19 = new JButton();
+        jButton20 = new JButton();
+        jLabel21 = new JLabel();
+        jLabel18 = new JLabel();
+        jSeparator9 = new JSeparator();
+        jButton10 = new JButton();
+        jButton21 = new JButton();
+        jButton22 = new JButton();
+        jButton23 = new JButton();
+        GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel1))
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addContainerGap(205, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jLabel1)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        GroupLayout jPanel2Layout = new GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7, GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel6, GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel5, GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel4, GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel3, GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+             
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                       
+                        .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel9)
+                            .addComponent(jLabel10))
+                        .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton5)
+                            .addComponent(jButton1)
+                            .addComponent(jButton2)))
+                ))
+        ));
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel8)
+                    .addComponent(jButton5))
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)        
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(jButton1)
+                    .addComponent(jLabel9))
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                .addGroup(jPanel2Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(jButton2)
+                    .addComponent(jLabel10))
+                ))));
+        GroupLayout jPanel4Layout = new GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setTitle(getTitolo());
+        setPreferredSize(new Dimension(956, 704));
+        setResizable(false);
+        setSize(new Dimension(956, 800));
+        setIconImage(Icona.setImage(getNameClass()));
+
+        jPanel1.setBackground(new Color(204, 204, 0));
+
+        jLabel12.setText("                    Benvenuto in "+getTitolo());
+
+        jLabel17.setText("                                                                           Finestra Principale ");
+
+        GroupLayout jPanel3Layout = new GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(307, 307, 307)
+                .addComponent(jLabel12, GroupLayout.PREFERRED_SIZE, 319, GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel17, GroupLayout.PREFERRED_SIZE, 944, GroupLayout.PREFERRED_SIZE)
+                .addGap(56, 56, 56))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addComponent(jLabel12, GroupLayout.PREFERRED_SIZE, 39, GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel17))
+        );
+        InizializzaParteRemota();
+        InizializzaParteLocale();
+        InizializzaParteFunzioni();
+
+        GroupLayout layout = new GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, GroupLayout.Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jSeparator2)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(46, 46, 46)
+                .addComponent(jLabel16, GroupLayout.PREFERRED_SIZE, 119, GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jSeparator9)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jSeparator6, GroupLayout.PREFERRED_SIZE, 450, GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel14)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator7))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                    .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton13, GroupLayout.PREFERRED_SIZE, 119, GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton14, GroupLayout.PREFERRED_SIZE, 119, GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(297, 297, 297)
+                        .addComponent(jButton18)
+                        .addGap(185, 185, 185))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton10)
+                                .addGap(29, 29, 29)
+                                .addComponent(jButton23))
+                            .addComponent(jButton21)
+                            .addComponent(jButton22))
+                        .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addComponent(jLabel11))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton7, GroupLayout.PREFERRED_SIZE, 127, GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jButton6, GroupLayout.PREFERRED_SIZE, 123, GroupLayout.PREFERRED_SIZE)))
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(181, 181, 181)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel18)
+                                .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel15, GroupLayout.PREFERRED_SIZE, 251, GroupLayout.PREFERRED_SIZE)
+                                        .addGap(30, 30, 30)
+                                        .addComponent(jButton17))
+                                    .addComponent(jButton15))
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel21, GroupLayout.PREFERRED_SIZE, 153, GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                    .addComponent(jButton19)
+                                    .addComponent(jButton16))
+                                .addGap(20, 20, 20))))
+                    .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(jButton20, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(jButton9, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(36, 36, 36)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jButton11)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel13, GroupLayout.PREFERRED_SIZE, 162, GroupLayout.PREFERRED_SIZE)
+                                        .addGap(27, 27, 27)
+                                        .addComponent(jButton12)))
+                                .addGap(25, 25, 25))
+                            .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jButton8)
+                                .addGap(183, 183, 183))))))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel11))
+                .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton9)
+                                    .addComponent(jButton12))
+                                .addGap(13, 13, 13))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel13, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)))
+                        .addComponent(jButton8)
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton20)
+                            .addComponent(jButton11))
+                        .addGap(12, 12, 12))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jButton6)
+                        .addGap(17, 17, 17)
+                        .addComponent(jButton7)
+                        .addGap(18, 18, 18)))
+                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jSeparator9, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel16)
+                                .addGap(17, 17, 17)
+                                .addComponent(jButton13)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton14, GroupLayout.PREFERRED_SIZE, 25, GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                        .addComponent(jButton19)
+                                        .addComponent(jButton17))
+                                    .addGroup(GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGap(0, 0, Short.MAX_VALUE)
+                                        .addComponent(jLabel21, GroupLayout.PREFERRED_SIZE, 9, GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton18)
+                                .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jButton15)
+                                    .addComponent(jButton16))))
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
+                            .addComponent(jSeparator6, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jSeparator7, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel14))
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton10)
+                            .addComponent(jButton23))
+                        .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton21)
+                        .addGap(14, 14, 14)
+                        .addComponent(jButton22)
+                        .addGap(18, 18, 18)
+                        .addComponent(jSeparator2, GroupLayout.PREFERRED_SIZE, 18, GroupLayout.PREFERRED_SIZE)
+                        .addGap(164, 164, 164))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jLabel15)
+                        .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+        );
+     setBounds(0, 0, 1157, 566);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        
+    }
+    
+    public void actionPerformedDatabase(ActionEvent e){
+      
+    }
+    
+    public void actionPerformedFile(ActionEvent e){
+        
+    }
+    
+    public void actionPerformedFunzioni(ActionEvent e){
+    
+    }
+    
+    public  static String getTitolo(){
+      return "GestDB Beta 4";
+    }
+     
+    public void InizializzaParteRemota(){
+        jLabel11.setText("Gestione Comunicazione Database Remoto");
+        jLabel18.setText("Gestione Database Remoto");
+        jButton6.setText("Connessione");
+        jButton6.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            new ConnessioneDB().setVisible(true);
+          }
+        });
+        jButton7.setText("Disconnessione");
+        jButton7.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            DisconnessioneDB.Disconnessione();
+          }
+        });
+        jLabel13.setText("Comandi Database Remoto");
+        jButton8.setText("Mostra Tabella");
+        jButton8.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+              AvviaMostraTabella();
+          }
+        });
+
+        jButton9.setText("Comandi DDL");
+        jButton9.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            AvviaFormQuery();
+          }
+        });
+        jButton11.setText("Comandi DQL");
+        jButton11.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            AvviaFormQuery();
+          }
+        });
+        jButton12.setText("Comandi DCL");
+        jButton12.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+             AvviaFormQuery();
+          }
+        });
+        jButton20.setText("Comandi DML");
+        jButton20.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            AvviaFormQuery();
+          }
+        });
+    }
+    
+    public void InizializzaParteLocale(){
+        jLabel15.setText("Gestione Database da File");
+        jButton13.setText("Apri File");
+        jButton13.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+        
+          }
+        });
+        jButton14.setText("Chiudi File");
+        jButton14.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+        
+          }
+        });
+        jLabel16.setText("   Gestione File");
+        jButton15.setText("Comandi DML");
+        jButton15.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            AvviaFormQuery();
+          }
+        });
+        jButton16.setText("Comandi DQL");
+        jButton16.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+        
+          }
+        });
+        jButton17.setText("Comandi DCL");
+        jButton17.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            AvviaFormQuery();
+          }
+        });
+        jButton18.setText("Mostra Tabella");
+        jButton18.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+             AvviaMostraTabella();          
+          }
+        });
+        jButton19.setText("Comandi DDL");
+        jButton19.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+              AvviaFormQuery();
+          }
+        });
+    }
+    
+    public void InizializzaParteFunzioni(){
+        jLabel14.setText("Menù Funzioni");
+        jButton10.setText("Infomazioni");
+        jButton10.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            MessaggiGrafici.InfoApplicazione();
+          }
+        });
+        jButton21.setText("Segnala un bug");
+        jButton21.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            BugSegnalator bs=new BugSegnalator();
+            bs.setVisible(true);
+          }
+        });
+        jButton22.setText("Aggiorna");
+        jButton22.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            Updater up=new Updater();
+            up.setVisible(true);
+          }
+        });
+        jButton23.setText("Impostazioni");
+        jButton23.addActionListener(new ActionListener(){
+          @Override
+          public void actionPerformed(ActionEvent e) {
+            MessaggiGrafici.ImpostazioniNonDisponibili();
+          }
+        });
+    }
+    
+    public void AvviaFormQuery(){
+      QueryForm qf=new QueryForm();
+      qf.setVisible(true);
+    }
+    
+    public void AvviaMostraTabella(){
+      VisualizzaTabella vb=new VisualizzaTabella();
+      vb.setVisible(true);
+    }
+    
+    public String getNameClass(){
+     return this.getClass().getSimpleName();
+    }
+}
