@@ -32,10 +32,10 @@ import javax.swing.JOptionPane;
 @Deprecated
 public class Update{
      
-     private static  final String APP_KEY = "dpuviamm2c0mrnz";
-     private static  final String APP_SECRET = "pvczc8k7ojh5uy1";
+     private static  final String APP_KEY = "";
+     private static  final String APP_SECRET = "";
      private String vc;//versione corrente del programma
-     private static final String ACCESS_TOKEN = "WDEGu0_LRsAAAAAAAAAADmPZNrfndNv-JgbNiNq6PRbI4IDr-qCOBpr3AHbOSC5M";
+     private static final String ACCESS_TOKEN = "";
      public  String vu;//versione nuova del programma
      
      public Update(String vc)
