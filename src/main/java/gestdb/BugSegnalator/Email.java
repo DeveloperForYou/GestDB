@@ -32,8 +32,8 @@ import jakarta.mail.internet.MimeMultipart;
  **/
 
 public class Email {
-    final String username="spotted.spiaggetta@gmail.com";
-    protected final String password="niccoloferrigno";
+    final String username="";
+    protected final String password="";
     private String da;
     private String body;
     private File a;
